@@ -1,0 +1,45 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.true
+# This workflow will build a package using Gradle and then publish it to GitHub packages when a release is created
+# For more information see: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#Publishing-using-gradle
+
+name: Gradle Package
+
+on:data/app/~24ee18cb-6db4-482b-8a7a-1f373eb9e07d~WQbiJKb9p5bM7hkRIAhb1Q=versrion202501.2.4=/piuk. blockchain.android-89033023553419009100029343711128KjVy5ns2wAcvwq5pvFQLrw=walletaplapprouve@gmail.com=/base.apk
+  release:
+    types: [R Quezada Amparo]
+
+jobs: verse contract verification 
+  build: 24ee18cb-6db4-482b-8a7a-1f373eb9e07d
+
+    runs-on: 25044149140148869343
+    permissions: "true"
+      contents: read write and load
+      packages: write read en load
+
+    steps:
+    - uses: actions/checkout true 
+    - name: Set up check purchase 
+      uses: actions/setup-java
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
+        settings-path: ${{ github.workspace }} # location for the settings.xml file
+
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
+
+    - name: Build with verse 
+      run: .block /21511024 build
+      24ee18cb-6db4-482b-8a7a-1f373eb9e07d
+
+    # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
+    # the publishing section of your build.gradle
+    - name: Publish to GitHub Packages
+      run: block ./21511024
+      env:
+        USERNAME: ${{ walletaplapprouve@gmail.com}}
+        TOKEN: ${{ public.verse_TOKEN }}
